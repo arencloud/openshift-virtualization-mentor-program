@@ -1,0 +1,111 @@
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# IDE / Editor
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+
+# =========================
+# Ansible
+# =========================
+*.retry
+
+# =========================
+# Terraform
+# =========================
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+override.tf
+override.tf.json
+terraform.tfvars
+
+# =========================
+# OpenShift / Kubernetes
+# =========================
+kubeconfig
+.kube/
+*.kubeconfig
+
+# Generated manifests
+rendered-manifests/
+generated/
+
+# Helm
+charts/*/charts/
+charts/*/tmp/
+
+# =========================
+# Secrets & Certificates
+# =========================
+*.key
+*.crt
+*.pem
+*.p12
+*.csr
+secrets.yaml
+secret.yaml
+pull-secret.json
+
+# =========================
+# Logs
+# =========================
+logs/
+*.log
+
+# =========================
+# Temporary Files
+# =========================
+tmp/
+temp/
+.cache/
+
+# =========================
+# Container Files
+# =========================
+*.tar
+*.img
+*.qcow2
+
+# =========================
+# ArgoCD / GitOps
+# =========================
+.argocd-source.yaml
+
+# =========================
+# Backup Files
+# =========================
+*.bak
+*.backup
+
+# =========================
+# Testing
+# =========================
+coverage/
+htmlcov/
+.pytest_cache/
+
+# =========================
+# Mac/Linux metadata
+# =========================
+.AppleDouble
+.LSOverride
