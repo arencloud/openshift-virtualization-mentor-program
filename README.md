@@ -10,7 +10,7 @@ This repository contains a structured 12-week mentoring roadmap for OpenShift Vi
 - Deploy and manage enterprise VM workloads
 - Implement GitOps and automation
 - Configure HA, backup, DR, and security
-- Deliver a production-ready virtualization platform
+- Deliver a ready virtualization platform
 
 ---
 
@@ -75,3 +75,46 @@ This repository contains a structured 12-week mentoring roadmap for OpenShift Vi
 - DR recovery validated
 - Security baseline established
 - Ready platform delivered
+
+---
+
+# Recommended Branch Naming
+
+```
+feature/sprint-xx-<task-name>
+```
+---
+
+# Recommended PR Workflow
+
+```
+Issue → Branch → Commit → Pull Request → Mentor Review → Merge → Done
+```
+
+---
+
+# Recommended Sprint Workflow
+
+## During Planning
+
+```
+Backlog → Ready
+```
+
+## During Execution
+
+```
+Ready → In Progress
+```
+
+## During Review
+
+```
+In Progress → Review
+```
+
+## When Completed
+
+```
+Review → Done
+```
